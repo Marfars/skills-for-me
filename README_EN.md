@@ -14,6 +14,7 @@ A Claude Code Skill is a modular extension package that enhances Claude's capabi
 
 | Skill | Command | Description |
 |-------|---------|-------------|
+| [deep-qa](deep-qa/) | `/deep-qa` | Force critical thinking and iterative questioning before providing solutions |
 | [task-splitter](task-splitter/) | `/task-splitter` | Split large coding tasks into ordered subtasks for cross-session execution |
 | [find-task](find-task/) | `/find-task` | Find the next incomplete subtask, formulate an implementation plan, and assist with development |
 
@@ -22,8 +23,11 @@ A Claude Code Skill is a modular extension package that enhances Claude's capabi
 ```
 skills-for-me/
 ├── archive/                        # Release artifacts (.skill packages)
+│   ├── deep-qa.skill
 │   ├── find-task.skill
 │   └── task-splitter.skill
+├── deep-qa/                        # deep-qa skill source
+│   └── SKILL.md
 ├── find-task/                      # find-task skill source
 │   ├── SKILL.md
 │   └── README.md
@@ -49,6 +53,10 @@ skills-for-me/
 4. Restart Claude Code to take effect
 
 ## Usage
+
+### deep-qa
+
+When discussing implementation plans, requirements, or bug fixes, Claude automatically enters deep questioning mode — iteratively asking questions and exploring the codebase to fully understand requirements before providing solutions. You can also manually trigger it by typing `/deep-qa`.
 
 ### task-splitter
 

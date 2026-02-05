@@ -10,10 +10,11 @@ This is a personal Claude Code Skills maintenance repository. Each subdirectory 
 
 | Skill | Command | Description |
 |-------|---------|-------------|
+| deep-qa | `/deep-qa` | Forces critical thinking and iterative questioning before providing solutions |
 | task-splitter | `/task-splitter` | Splits large coding tasks into ordered subtasks for cross-session execution |
 | find-task | `/find-task` | Finds next incomplete subtask, formulates implementation plan, assists development |
 
-These two skills work together: **task-splitter** creates the plan, **find-task** picks up where the last session left off.
+These three skills work together: **deep-qa** clarifies requirements through iterative questioning, **task-splitter** creates the plan, **find-task** picks up where the last session left off.
 
 ## Packaging and Validation
 
