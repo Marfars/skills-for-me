@@ -1,4 +1,4 @@
-# skill-for-me
+# skills-for-me
 
 [English](README_EN.md)
 
@@ -20,7 +20,7 @@ Claude Code Skill 是一种模块化的扩展包，通过提供专业知识、�
 ## 仓库结构
 
 ```
-skill-for-me/
+skills-for-me/
 ├── archive/                        # 发布产物（.skill 打包文件）
 │   ├── find-task.skill
 │   └── task-splitter.skill

@@ -1,4 +1,4 @@
-# skill-for-me
+# skills-for-me
 
 [中文](README.md)
 
@@ -20,7 +20,7 @@ A Claude Code Skill is a modular extension package that enhances Claude's capabi
 ## Repository Structure
 
 ```
-skill-for-me/
+skills-for-me/
 ├── archive/                        # Release artifacts (.skill packages)
 │   ├── find-task.skill
 │   └── task-splitter.skill
