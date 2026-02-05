@@ -27,7 +27,8 @@ skills-for-me/
 │   ├── find-task.skill
 │   └── task-splitter.skill
 ├── deep-qa/                        # deep-qa skill source
-│   └── SKILL.md
+│   ├── SKILL.md
+│   └── README.md
 ├── find-task/                      # find-task skill source
 │   ├── SKILL.md
 │   └── README.md
@@ -57,6 +58,8 @@ skills-for-me/
 ### deep-qa
 
 When discussing implementation plans, requirements, or bug fixes, Claude automatically enters deep questioning mode — iteratively asking questions and exploring the codebase to fully understand requirements before providing solutions. You can also manually trigger it by typing `/deep-qa`.
+
+See [deep-qa/README.md](deep-qa/README.md) for details.
 
 ### task-splitter
 

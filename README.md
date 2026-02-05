@@ -27,7 +27,8 @@ skills-for-me/
 │   ├── find-task.skill
 │   └── task-splitter.skill
 ├── deep-qa/                        # deep-qa 技能源码
-│   └── SKILL.md
+│   ├── SKILL.md
+│   └── README.md
 ├── find-task/                      # find-task 技能源码
 │   ├── SKILL.md
 │   └── README.md
@@ -57,6 +58,8 @@ skills-for-me/
 ### deep-qa
 
 在讨论实现方案、需求分析或问题修复时，Claude 会自动进入深度提问模式，通过迭代提问和代码库探索充分理解需求后再提供方案。也可手动输入 `/deep-qa` 触发。
+
+详细说明请参阅 [deep-qa/README.md](deep-qa/README.md)。
 
 ### task-splitter
 
